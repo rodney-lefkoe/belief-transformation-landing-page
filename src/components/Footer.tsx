@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-10">
       <div className="container">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="mb-4">&copy; {new Date().getFullYear()} The Lefkoe Method. All rights reserved.</p>
+          <p className="mb-4">&copy; {new Date().getFullYear()} The Lefkoe Institute. All rights reserved.</p>
           <p className="text-sm text-gray-400">
             Helping people eliminate limiting beliefs and transform their lives with proven methods.
           </p>
