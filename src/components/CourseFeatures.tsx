@@ -62,7 +62,7 @@ const CourseFeatures = () => {
               
               <FeatureItem icon={<FilePenLine className="h-6 w-6" />}>
                 <h3 className="font-semibold text-lg mb-1">Written feedback on a session</h3>
-                <p className="text-gray-600">Get expert analysis of your practice session <span className="text-amber-700 font-medium">($350 value)</span></p>
+                <p className="text-gray-600">Get expert analysis of your practice session <span className="text-amber-700 font-medium">($450 value)</span></p>
               </FeatureItem>
               
               <FeatureItem icon={<CheckCircle2 className="h-6 w-6" />}>
