@@ -12,15 +12,6 @@ const OrderPoint = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-const PaymentCard = () => (
-  <div className="flex justify-center gap-4 mt-6">
-    <img src="https://cdn.privacytools.io/images/payments/visa.png" alt="Visa" className="h-8" />
-    <img src="https://cdn.privacytools.io/images/payments/mastercard.png" alt="MasterCard" className="h-8" />
-    <img src="https://cdn.privacytools.io/images/payments/amex.png" alt="American Express" className="h-8" />
-    <img src="https://cdn.privacytools.io/images/payments/discover.png" alt="Discover" className="h-8" />
-  </div>
-);
-
 const OrderForm = () => {
   return (
     <section id="order" className="py-16 bg-gray-50">
@@ -56,7 +47,7 @@ const OrderForm = () => {
                   </OrderPoint>
                   
                   <OrderPoint>
-                    There are no refunds for this course. If in doubt, see the experience of alumni. Others have money back guarantees because they cannot promise skill.
+                    There are no refunds for this course. If in doubt, <a href="https://docs.google.com/document/d/1gv9OfWvANJLZoOhNRHONbBdN0bxtM3TWn57LX4E5JI4/edit#heading=h.nkbzf3prbho2" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">see the experience of alumni</a>. Others have money back guarantees because they cannot promise skill.
                   </OrderPoint>
                 </div>
                 
@@ -67,8 +58,6 @@ const OrderForm = () => {
                 </a>
                 
                 <p className="mt-4 text-sm text-gray-600">Order over our secure order form.</p>
-                
-                <PaymentCard />
                 
                 <div className="mt-8 bg-amber-50 border border-amber-200 p-4 rounded-md">
                   <p className="text-amber-800 font-medium">

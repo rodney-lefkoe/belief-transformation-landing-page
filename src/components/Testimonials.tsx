@@ -4,19 +4,19 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "The LMT training has completely transformed how I work with clients. I can now identify limiting beliefs quickly and help create lasting change.",
-    author: "Sarah K.",
-    role: "Life Coach"
+    quote: "This training has changed my world. Most people use only \"Will\" to try to push through patterns that are not serving them, only to have them show back up at a later date. I now have the knowledge to change patterns quickly, effectively, and permanently. This is a game changer.",
+    author: "Becky Hess",
+    role: "West Jordan, Utah, USA"
   },
   {
-    quote: "Learning to find beliefs with the Lefkoe Method gave me skills that no other program ever did. The personalized feedback made all the difference.",
-    author: "Michael T.",
-    role: "Therapist"
+    quote: "I have enjoyed learning about finding and eliminating limiting beliefs through the LMT1 and LMT2. The Techniques are easy to learn and Rodney and his team have worked very hard to make it so. I have used the Techniques with my clients and they have been amazed. In myself, feel like I'm finding myself again. The changes are subtle but lasting. My mind is clearer and more at peace. I'm very grateful to have the opportunity to learn and apply this life changing method. Thank you very much.",
+    author: "Neelima Deshpande",
+    role: "India"
   },
   {
-    quote: "I joined to help others, but ended up transforming my own life in the process. The daily exercises and feedback are invaluable.",
-    author: "Jennifer R.",
-    role: "Wellness Practitioner"
+    quote: "I have found the Lefkoe Method training a great tool to use not only for myself but also with clients. I was able to remove beliefs from my life and so I am confident in offering this method for clients as well. I recommend the Lefkoe Training process for anyone considering taking it up.",
+    author: "Barbara Elisjones",
+    role: "Sydney Australia"
   }
 ];
 
