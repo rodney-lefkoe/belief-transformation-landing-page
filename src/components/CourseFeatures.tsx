@@ -20,10 +20,10 @@ const FeatureItem = ({ icon, children }: { icon: React.ReactNode, children: Reac
 
 const CourseFeatures = () => {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-6 bg-white">
       <div className="container">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
             When you join LMT2: Mastering The Behavior Change Process, you get...
           </h2>
           
